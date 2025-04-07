@@ -1,0 +1,38 @@
+.header {
+    background-color: #5dade2;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tv-icon-container {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-icon {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+/* Make the name column blue links */
+#series-body td:nth-child(2) {
+    color: #007bff;
+} 

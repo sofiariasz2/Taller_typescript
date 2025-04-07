@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "AMD",
+    "outFile": "./app.js",
+    "strict": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./serie.ts", "./data.ts", "./main.ts"]
+} 
