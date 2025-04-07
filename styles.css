@@ -35,4 +35,29 @@ h1 {
 /* Make the name column blue links */
 #series-body td:nth-child(2) {
     color: #007bff;
+    cursor: pointer;
+}
+
+#series-body td:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+#seasons-average {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.card-link {
+    word-break: break-all;
 } 

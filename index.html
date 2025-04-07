@@ -49,19 +49,32 @@
       <h1>TV Series</h1>
     </div>
     
-    <table class="table table-striped" id="series-table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Channel</th>
-          <th>Seasons</th>
-        </tr>
-      </thead>
-      <tbody id="series-body">
-        <!-- Series will be loaded dynamically -->
-      </tbody>
-    </table>
+    <div class="row">
+      <!-- Columna izquierda con la tabla -->
+      <div class="col-md-7">
+        <table class="table table-striped" id="series-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Channel</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+          <tbody id="series-body">
+            <!-- Series will be loaded dynamically -->
+          </tbody>
+        </table>
+        <div id="seasons-average"></div>
+      </div>
+      
+      <!-- Columna derecha para el detalle de la serie -->
+      <div class="col-md-5">
+        <div id="serie-detail">
+          <!-- El detalle de la serie se mostrará aquí -->
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="app.js"></script>
